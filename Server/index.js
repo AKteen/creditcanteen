@@ -12,7 +12,7 @@ const app = express()
 // webhook must use raw body — before express.json()
 app.use('/webhook', express.raw({ type: 'application/json' }), webhookRoutes)
 
-app.use(cors({ origin: 'http://localhost:5173' }))
+app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173' }))
 app.use(express.json())
 app.use(rateLimiter)
 
