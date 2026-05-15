@@ -30,6 +30,7 @@ export default function Login() {
         <div className="min-h-screen flex" style={{ background: '#FFF5F5' }}>
 
             {/* left panel — desktop only */}
+            <h1>https://drive.google.com/drive/folders/15Bp1UkHQ9LV2KhQzjAwKcYhXJBt4NYxO?usp=drive_link</h1>
             <div className="hidden md:flex flex-col justify-center items-center w-1/2 px-16"
                 style={{ background: 'linear-gradient(135deg, #E23744 0%, #FF6B35 100%)' }}>
                 <div style={{ color: 'white', textAlign: 'center' }}>
